@@ -11,7 +11,7 @@ def data():
 
 
 def test_read_file(data):
-    assert len(data) == 10
+    assert len(data) == 12
     assert len(data[0].keys()) == 17
 
 
